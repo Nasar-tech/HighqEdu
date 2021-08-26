@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bgimg {
+  padding: 0;
+  margin: 0;
+  background-image: url("./images/bodyimg2.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 95vh;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 99;
+}
+.customFont {
+  font-family: "Dancing Script", cursive;
+  margin: 50px;
+}
+.headerset {
+  padding-top: auto;
+  box-sizing: border-box;
+  color: rgb(255 253 251);
+}
+.headerset h2 {
+  font-size: 43px;
+}
+.headerset h1 {
+  margin-top: 50px;
+  font-size: 73px;
+}
+
+/****************************************** our Courses CSS  */
+.ourServices {
+  padding: 90px 50px;
+  font-size: large;
+  font-weight: 500;
+}
+.rowSetting {
+  margin: 0px;
+}
+.imgSetting {
+  /* border-radius: 50%; */
+  height: 100px;
+  width: 100px;
+}
+a:hover {
+  color: aqua;
+}
+
+.imgSetting:hover {
+  color: aqua;
+}
+
+.rowSetting p {
+  color: rgb(81, 91, 98);
+  padding: 10px;
+}
+.rowSetting h2 {
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+  font-size: 30px;
+  padding: 10px;
+}
+/* Future posts */
+
+/* ***********************************************About Text */
+.AboutText {
+  text-align: justify;
+}
+.AboutusHeading {
+  display: inline;
+  width: 200px;
+  height: 200px;
+}
+
+/***************************************************** About our placements */
+.cardImage {
+  margin: 30px 30px;
+  width: 100%;
+  height: 200px;
+}
+.cardSet {
+  z-index: -1;
+}
+.card {
+  width: 20rem;
+}
+.placements {
+  margin-top: 20px;
+}
+.placementsRow {
+  margin-top: 0px;
+  padding: 0;
+}
+
+/************************************************* Faculty */
+.faculty {
+  margin-top: 110px;
+}
+
+.facultyImages {
+  height: 200px;
+}
+.facultyDiv {
+  z-index: -1;
+}
+/* contact us form */
+.contactUs {
+  margin-top: 100px;
+}
+/* Career page */
+.careermessage {
+  margin-top: 50px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 30px;
+  height: 50px;
+  line-height: 50px;
+}
+
+/******************************************* upcoming courses Marquee Tag */
+
+.AdvCard {
+  display: inline-block;
+  margin: 20px;
+}
+.marquee {
+  height: 100%;
+  width: 100%;
+  margin: 20px;
+}
+/* for Responsive ness */
+@media (min-width: 992px) {
+  .headerset h2 {
+    font-size: 80px;
+  }
+  .headerset h1 {
+    margin-top: 30px;
+    font-size: 60px;
+  }
+}
+@media (min-width: 768px) and(max-width:991px) {
+  .headerset h2 {
+    font-size: 40px;
+  }
+  .headerset h1 {
+    margin-top: 30px;
+    font-size: 50px;
+  }
+}
+@media (min-width: 575px) and (max-width: 767px) {
+  .headerset h2 {
+    font-size: 25px;
+  }
+  .headerset h1 {
+    margin-top: 30px;
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 574px) {
+  .headerset h2 {
+    font-size: 25px;
+  }
+  .headerset h1 {
+    margin-top: 30px;
+    font-size: 35px;
+  }
+}
+@media (max-width: 479px) {
+  .headerset h2 {
+    font-size: 20px;
+  }
+  .headerset h1 {
+    margin-top: 30px;
+    font-size: 25px;
+  }
+}
