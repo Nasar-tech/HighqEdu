@@ -16,19 +16,78 @@
 a {
   text-decoration: none;
   color: #333;
+
+}
+/************************************ Navbar */
+
+.contact{
+   
+  width:100%;
+  height:2rem;
+  
+}
+.contactDetails{
+  margin:0;
+  padding:0;
+  width:auto;
+  height:60px;
+  margin-left: 15px;
+}
+.contactPara{
+  
+  padding:0;
+  
+}
+.contactPara2{
+  
+  margin-top:-25px;
+  padding:0;
+  
+}
+.fa-laptop-code{
+  margin-left:15px;
+  z-index:100;
+}
+.navbar-brand{
+  z-index: 100;
+}
+body{
+  background-color: rgb(255, 255, 255);
 }
 
 .navbar {
+  margin:0;
+  padding:0;
   overflow: hidden;
-  background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
+  background-color:transparent;
+  position:fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  z-index: 99;
+
+}
+.navbar-expand-lg{
+  z-index:9;
+}
+.nav-link{
+  font-size: large;
+}
+.headingPara{
+  font-family: 'Kaisei HarunoUmi', serif;
+  word-spacing: 5px;
+  font-weight:300;
+  margin-top: 2rem;
+  font-size: 20px;
+  text-align: justify;
+}
+.navbar-toggler{
+  background-color: white;
+  margin-right:30px;
 }
 .customFont {
   font-family: "Dancing Script", cursive;
   margin: 50px;
+  margin-bottom: -43px;
+  padding: 50px;
 }
 .headerset {
   padding-top: auto;
@@ -39,13 +98,29 @@ a {
   font-size: 43px;
 }
 .headerset h1 {
-  margin-top: 50px;
+  margin-top: 0;
   font-size: 73px;
 }
+/* ***************************************** nav Contact */
+
+.NavContact{
+  
+  z-index:99;
+}
+/* ******************************************Contact us */
+
+.textArea{
+  
+  width:60%;
+  resize: none;
+  
+}
+
+
 
 /****************************************** our Courses CSS  */
 .ourServices {
-  padding: 90px 50px;
+  padding: 0px 50px;
   font-size: large;
   font-weight: 500;
 }
@@ -91,8 +166,10 @@ a:hover {
 .cardImage {
   margin: 30px 30px;
   width: 100%;
-  height: 200px;
+  height: 350px;
+  
 }
+
 .cardSet {
   z-index: -1;
 }
@@ -105,22 +182,35 @@ a:hover {
 .placementsRow {
   margin-top: 0px;
   padding: 0;
+  
+}
+/******************************************* About Clients */
+.clientImages{
+
+  border:1px solid whitesmoke;
+  box-shadow: 5px 10px 8px #f8f8f8
+
 }
 
-/************************************************* Faculty */
-.faculty {
-  margin-top: 110px;
-}
-
-.facultyImages {
-  height: 200px;
-}
-.facultyDiv {
+.clientDiv{
   z-index: -1;
+  
+  box-shadow: 20px 3px 15px #ebdbdb
 }
-/* contact us form */
+
+.clientImages:hover{
+  border:1px solid red;
+  border:1px solid whitesmoke;
+}
+
+
+/************************************* contact us form */
 .contactUs {
-  margin-top: 100px;
+  margin-top: 50px;
+
+}
+.formDiv{
+  /* z-index: -1; */
 }
 /* Career page */
 .careermessage {
@@ -133,6 +223,26 @@ a:hover {
   height: 50px;
   line-height: 50px;
 }
+
+/* ***********************Courses Details */
+.javaDetails{
+}
+.javaDetails ul{
+  margin:10px;
+  
+  margin-left: 60px;
+  
+}
+
+
+
+
+
+
+
+
+
+
 
 /******************************************* upcoming courses Marquee Tag */
 
@@ -155,36 +265,72 @@ a:hover {
     font-size: 60px;
   }
 }
-@media (min-width: 768px) and(max-width:991px) {
-  .headerset h2 {
-    font-size: 40px;
-  }
-  .headerset h1 {
-    margin-top: 30px;
-    font-size: 50px;
-  }
-}
-@media (min-width: 575px) and (max-width: 767px) {
+
+@media (min-width: 768px) and (max-width: 991px) {
   .headerset h2 {
     font-size: 25px;
+
+  }
+  .headingPara{    
+    font-size: 15px;
+    text-align: justify;
+
+
   }
   .headerset h1 {
     margin-top: 30px;
     font-size: 35px;
+
+
+  }
+}
+
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .headerset h2 {
+    font-size: 25px;
+
+  }
+  .headingPara{    
+    font-size: 15px;
+    text-align: justify;
+
+  }
+  .headerset h1 {
+    margin-top: 30px;
+    font-size: 35px;
+
   }
 }
 
 @media (min-width: 480px) and (max-width: 574px) {
   .headerset h2 {
     font-size: 25px;
+    
+  }
+  .headingPara{
+
+    font-size: 15px;
+    text-align: justify;
   }
   .headerset h1 {
+
     margin-top: 30px;
     font-size: 35px;
   }
 }
 @media (max-width: 479px) {
+  .navbar-toggler{
+    background-color: rgb(150, 147, 147);
+    margin-right:30px;
+  }
+  .headingPara{
+    
+    font-size: 10px;
+    text-align: justify;
+  }
   .headerset h2 {
+    
     font-size: 20px;
   }
   .headerset h1 {

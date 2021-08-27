@@ -1,15 +1,18 @@
 import React from "react";
 import OnlyNav from "./onlyNav";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 const Courses = () => {
   return (
     <>
       <OnlyNav />
+      <br></br>
+      <br></br>
+      <br></br>
       <section class="container-fluid ourServices text-center">
         <div class="container">
           <h2>Welcome To EduTech! How can we help you..</h2>
-          <hr />
           <h3>
             <i>
               Our team trained at your company premises. Learn content tailored
@@ -19,10 +22,9 @@ const Courses = () => {
           </h3>
           <br />
           <br />
-          <br />
-          <br />
-          <br />
+        
           <hr class="w-30 mt-5 mx-auto" />
+          
           <h1> Our Premium Courses </h1>
           <hr class="w-30 mx-auto" />
           <div class="row rowSetting bg-light">
@@ -143,10 +145,24 @@ const Courses = () => {
                 <p>Microsoft Azure Development</p>
               </Link>
             </div>
+            {/* Course 11 */}
+            <div class="col-sm-10 col-md-6 col-lg-4 col-xl-4 d-block mt-4 m-auto">
+              <Link to="/Devops/CourseDetails">
+                <div class="imgSetting d-block m-auto">
+                <img
+                    src="./images/devops.png"
+                    class="imgSetting"
+                  />
+                </div>
+                <h2> Devops </h2>
+                <p>Devops Coaching</p>
+              </Link>
+            </div>
           </div>
           <div></div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 };

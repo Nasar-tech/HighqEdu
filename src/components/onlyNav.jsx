@@ -3,11 +3,16 @@ import { Link } from "react-router-dom";
 const OnlyNav = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-        <Link className="navbar-brand text-white" to="/">
-          <i className="fas fa-laptop-code"></i> Edu-Tech
-        </Link>
 
+      <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        
+        <Link className="navbar-brand text-white" to="/">
+          <i className="fas fa-laptop-code">&nbsp; &nbsp;  Edu-Tech </i> 
+          <div className="contactDetails"> 
+            <p className="contactPara1">+91 123 456 7890</p>
+            <p className="contactPara2">Email : highqlabs@gmail.com</p>
+          </div>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -38,8 +43,8 @@ const OnlyNav = () => {
               </Link>
             </li>
             <li className="nav-item mr-2">
-              <Link className="nav-link text-white" to="/Workshops">
-                <i className="fas fa-terminal"></i> Workshops
+              <Link className="nav-link text-white" to="/OurPlacements">
+                <i className="fas fa-terminal"></i> OurPlacements
               </Link>
             </li>
             <li className="nav-item mr-2">

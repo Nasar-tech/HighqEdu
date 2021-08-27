@@ -2,7 +2,7 @@ import React from "react";
 import Contactus from "../Contactus";
 import OnlyNav from "../onlyNav";
 
-const Angular = () => {
+const Devops = () => {
   return (
     <div className="container-fluid">
       <br></br>
@@ -11,8 +11,9 @@ const Angular = () => {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
       <div>
-        <h2>Angular page</h2>
+        <h2>Devops page</h2>
 
         <OnlyNav></OnlyNav>
         <Contactus></Contactus>
@@ -21,4 +22,4 @@ const Angular = () => {
   );
 };
 
-export default Angular;
+export default Devops;

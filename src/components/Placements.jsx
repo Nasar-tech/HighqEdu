@@ -7,21 +7,22 @@ const Placements = () => {
       <section class="placements">
         <div class="container text-center">
           <h2>Our Placements</h2>
-          <p>Excellence in placements and training</p>
+          <h3>Excellence in placements and training</h3>
+          <br/>
           <div class="row placementsRow g-5 gy-3">
             {/* <!-- First card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
               <div class="card">
                 <img
-                  src="./images/placements/01.jpg"
+                  src="./images/placedStudents/AlekhyaSuri.jpg"
                   class="card-img-top mx-auto cardImage img-fluid"
                   alt="first"
                 />
                 <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <h4><kbd>Alekhya Suri</kbd></h4>
+                  <samp class="card-text">
+                    Open Text
+                  </samp>
                 </div>
               </div>
             </div>
@@ -29,15 +30,15 @@ const Placements = () => {
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
               <div class="card">
                 <img
-                  src="./images/placements/02.jpg"
+                  src="./images/placedStudents/bvsrKishore.jpg"
                   class="card-img-top mx-auto cardImage img-fluid"
                   alt="second"
                 />
                 <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <h4><kbd>BVSR Kishore</kbd></h4>
+                <samp class="card-text">
+                Open Text
+                  </samp>
                 </div>
               </div>
             </div>
@@ -45,15 +46,15 @@ const Placements = () => {
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
               <div class="card">
                 <img
-                  src="./images/placements/03.jpg"
+                  src="./images/placedStudents/chSindhuja.jpg"
                   class="card-img-top mx-auto cardImage img-fluid"
                   alt="second"
                 />
                 <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <h4><kbd>CH Sindhuja</kbd></h4>
+                <samp class="card-text">
+                Open Text
+                  </samp>
                 </div>
               </div>
             </div>
@@ -64,15 +65,15 @@ const Placements = () => {
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
               <div class="card">
                 <img
-                  src="./images/placements/04.jpg"
+                  src="./images/placedStudents/Kgeethanjali.jpg"
                   class="card-img-top mx-auto cardImage img-fluid"
                   alt="fourth"
                 />
                 <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <h4><kbd>K Geethanjali</kbd></h4>
+                <samp class="card-text">
+                Open Text
+                  </samp>
                 </div>
               </div>
             </div>
@@ -80,15 +81,111 @@ const Placements = () => {
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
               <div class="card">
                 <img
-                  src="./images/placements/03.jpg"
+                  src="./images/placedStudents/kLakshmiPriya.jpeg"
                   class="card-img-top mx-auto cardImage img-fluid"
                   alt="fourth"
                 />
                 <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                <h4><kbd>K Lakshmi Priya</kbd></h4>
+                <samp class="card-text">
+                Open Text
+                  </samp>
+                </div>
+              </div>
+            </div>
+            {/* <!-- sixth Card --> */}
+            <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
+              <div class="card">
+                <img
+                  src="./images/placedStudents/KLNpratyusha.jpg"
+                  class="card-img-top mx-auto cardImage img-fluid"
+                  alt="fourth"
+                />
+                <div class="card-body">
+                <h4><kbd>KLN Pratyusha</kbd></h4>
+                <samp class="card-text">
+                Open Text
+                  </samp>
+                </div>
+              </div>
+            </div>
+            {/* <!-- seven Card --> */}
+            <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
+              <div class="card">
+                <img
+                  src="./images/placedStudents/mSaiDivya.jpg"
+                  class="card-img-top mx-auto cardImage img-fluid"
+                  alt="fourth"
+                />
+                <div class="card-body">
+                <h4><kbd>M Sai Divya</kbd></h4>
+                <samp class="card-text">
+                Open Text
+                  </samp>
+                </div>
+              </div>
+            </div>
+            {/* <!-- Eight Card --> */}
+            <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
+              <div class="card">
+                <img
+                  src="./images/placedStudents/NikhilaReddy.jpg"
+                  class="card-img-top mx-auto cardImage img-fluid"
+                  alt="fourth"
+                />
+                <div class="card-body">
+                <h4><kbd>Nikhila Reddy</kbd></h4>
+                <samp class="card-text">
+                Open Text
+                  </samp>
+                </div>
+              </div>
+            </div>
+            {/* <!-- Nine Card --> */}
+            <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
+              <div class="card">
+                <img
+                  src="./images/placedStudents/sManikanta.jpg"
+                  class="card-img-top mx-auto cardImage img-fluid"
+                  alt="fourth"
+                />
+                <div class="card-body">
+                <h4><kbd>S Manikanta</kbd></h4>
+                <samp class="card-text">
+                Open Text
+                  </samp>
+                </div>
+              </div>
+            </div>
+            {/* <!-- Ten Card --> */}
+            <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
+              <div class="card">
+                <img
+                  src="./images/placedStudents/uJagadeeswari.jpg"
+                  class="card-img-top mx-auto cardImage img-fluid"
+                  alt="fourth"
+                />
+                <div class="card-body">
+                <h4><kbd>U Jagadeeswari</kbd></h4>
+                <samp class="card-text">
+                    Wall Street Technology
+                  </samp>
+                </div>
+              </div>
+            </div>
+            {/* <!-- Eleven Card --> */}
+            <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
+              <div class="card">
+                <img
+                  src="./images/placedStudents/vVenkataRaju.jpg"
+                  class="card-img-top mx-auto cardImage img-fluid"
+                  alt="fourth"
+                />
+                <div class="card-body">
+                <h4><kbd>V VenkataRaju</kbd></h4>
+                <samp class="card-text">
+                Open Text
+                  </samp>
                 </div>
               </div>
             </div>

@@ -1,9 +1,9 @@
 import React from 'react';
 import {Route,Switch} from 'react-router-dom';
 import Courses from './components/Courses';
-import Faculty from './components/Faculty';
+
 import Contactus from './components/Contactus';
-import Workshops from "./components/WorkShops";
+import OurPlacements from "./components/OurPlacements";
 import Home from "./Home";
 
 
@@ -13,6 +13,7 @@ import JavaCourse from './components/CourseDetailsAPI/JavaCourse';
 import Android from './components/CourseDetailsAPI/Android';
 import Angular from './components/CourseDetailsAPI/Angular';
 import Azure from './components/CourseDetailsAPI/Azure';
+import Devops from './components/CourseDetailsAPI/Devops';
 import CSharp from './components/CourseDetailsAPI/CSharp';
 import JS from './components/CourseDetailsAPI/JS';
 import Node from './components/CourseDetailsAPI/Node';
@@ -43,10 +44,11 @@ function App() {
         <Route exact path="/Angular/CourseDetails" component={Angular}></Route>
         <Route exact path="/Android/CourseDetails" component={Android}></Route>
         <Route exact path="/Azure/CourseDetails" component={Azure}></Route>
+        <Route exact path="/Devops/CourseDetails" component={Devops}></Route>
         {/* Course Curriculams ends */}
         <Route exact path="/Career" component={Career}></Route>
-        <Route exact path="/Faculty" component={Faculty}></Route>
-        <Route exact path="/Workshops" component={Workshops}></Route>
+
+        <Route exact path="/OurPlacements" component={OurPlacements}></Route>
         <Route exact path="/Contactus" component={Contactus}></Route>
 
 
