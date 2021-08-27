@@ -21,7 +21,7 @@ const Placements = () => {
                 <div class="card-body">
                 <h4><kbd>Alekhya Suri</kbd></h4>
                   <samp class="card-text">
-                    Open Text
+                    Open Text Software Solution 
                   </samp>
                 </div>
               </div>
@@ -37,7 +37,7 @@ const Placements = () => {
                 <div class="card-body">
                 <h4><kbd>BVSR Kishore</kbd></h4>
                 <samp class="card-text">
-                Open Text
+                Open Text Software Solution 
                   </samp>
                 </div>
               </div>
@@ -53,7 +53,7 @@ const Placements = () => {
                 <div class="card-body">
                 <h4><kbd>CH Sindhuja</kbd></h4>
                 <samp class="card-text">
-                Open Text
+                Open Text Software Solution 
                   </samp>
                 </div>
               </div>
@@ -72,7 +72,7 @@ const Placements = () => {
                 <div class="card-body">
                 <h4><kbd>K Geethanjali</kbd></h4>
                 <samp class="card-text">
-                Open Text
+                Open Text Software Solution 
                   </samp>
                 </div>
               </div>
@@ -88,7 +88,7 @@ const Placements = () => {
                 <div class="card-body">
                 <h4><kbd>K Lakshmi Priya</kbd></h4>
                 <samp class="card-text">
-                Open Text
+                Open Text Software Solution 
                   </samp>
                 </div>
               </div>
@@ -104,7 +104,7 @@ const Placements = () => {
                 <div class="card-body">
                 <h4><kbd>KLN Pratyusha</kbd></h4>
                 <samp class="card-text">
-                Open Text
+                Open Text Software Solution 
                   </samp>
                 </div>
               </div>
@@ -120,7 +120,7 @@ const Placements = () => {
                 <div class="card-body">
                 <h4><kbd>M Sai Divya</kbd></h4>
                 <samp class="card-text">
-                Open Text
+                Open Text Software Solution 
                   </samp>
                 </div>
               </div>
@@ -136,7 +136,7 @@ const Placements = () => {
                 <div class="card-body">
                 <h4><kbd>Nikhila Reddy</kbd></h4>
                 <samp class="card-text">
-                Open Text
+                Open Text Software Solution 
                   </samp>
                 </div>
               </div>
@@ -152,7 +152,7 @@ const Placements = () => {
                 <div class="card-body">
                 <h4><kbd>S Manikanta</kbd></h4>
                 <samp class="card-text">
-                Open Text
+                Open Text Software Solution 
                   </samp>
                 </div>
               </div>
@@ -184,7 +184,7 @@ const Placements = () => {
                 <div class="card-body">
                 <h4><kbd>V VenkataRaju</kbd></h4>
                 <samp class="card-text">
-                Open Text
+                Open Text Software Solution 
                   </samp>
                 </div>
               </div>

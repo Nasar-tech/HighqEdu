@@ -12,6 +12,8 @@ const Courses = () => {
       <br></br>
       <section class="container-fluid ourServices text-center">
         <div class="container">
+          <br/>
+          <br/>
           <h2>Welcome To EduTech! How can we help you..</h2>
           <h3>
             <i>
