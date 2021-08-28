@@ -1,7 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
+
 const OnlyNav = () => {
+
+ 
   return (
+   
     <div>
 
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
@@ -31,8 +36,9 @@ const OnlyNav = () => {
               <Link className="nav-link text-white" to="/">
                 <i className="fas fa-home"></i> Home
               </Link>
+              
             </li>
-            <li className="nav-item active mr-2">
+            <li className="nav-item  mr-2">
               <Link className="nav-link text-white" to="/Courses">
                 <i className="fas fa-chalkboard-teacher"></i> Courses
               </Link>

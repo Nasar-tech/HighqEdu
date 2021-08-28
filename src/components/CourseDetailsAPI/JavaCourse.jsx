@@ -18,7 +18,7 @@ const JavaCourse = () => {
       <br />
       <br />
       
-      <div className="container javaDetails">
+      <div className="container courseDetails">
         <div className="row">
           <div className="col-10 col-xl-6 col-lg-6 col-md-6">
             <h2>Java Course Details : </h2>
@@ -92,9 +92,7 @@ const JavaCourse = () => {
             </ul>
                 
           </div>
-          <div className="col-10 col-xl-6 col-lg-6 col-md-6">
-          
-          </div>
+         
         </div>
       </div>
         <Contactus></Contactus>

@@ -7,9 +7,7 @@ const Courses = () => {
   return (
     <>
       <OnlyNav />
-      <br></br>
-      <br></br>
-      <br></br>
+      
       <section class="container-fluid ourServices text-center">
         <div class="container">
           <br/>
