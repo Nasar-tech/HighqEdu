@@ -21,7 +21,7 @@ const JavaCourse = () => {
       <div className="container javaDetails">
         <div className="row">
           <div className="col-10 col-xl-6 col-lg-6 col-md-6">
-            <h2>Android Course Details : </h2>
+            <h2>Java Course Details : </h2>
             ·   {" "}
               <h4> Introduction to java</h4>
             <ul>

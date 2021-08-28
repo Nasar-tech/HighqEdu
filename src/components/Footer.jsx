@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
       <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 mb-0 p-0 border-top">
-          <p class="col-md-4 mb-0 text-muted">©HighQ-Labs 2021 Company, Inc</p>
+          <p class="col-md-4 mb-0 text-success">©HighQ-Labs 2021 Company, Inc</p>
 
           <a
             href="/"
@@ -14,23 +14,23 @@ const Footer = () => {
 
           <ul class="nav col-md-4 justify-content-end">
             <li class="nav-item">
-              <a href="#" class="nav-link px-2 text-muted">
+              <a href="#" disabled class="nav-link px-2">
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link px-2 text-muted">
+              <a href="pagenotfound" class="nav-link px-2">
                 Features
               </a>
             </li>
            
             <li class="nav-item">
-              <a href="#" class="nav-link px-2 text-muted">
+              <a href="pagenotfound" class="nav-link px-2">
                 FAQs
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link px-2 text-muted">
+              <a href="pagenotfound" class="nav-link px-2">
                 About
               </a>
             </li>
