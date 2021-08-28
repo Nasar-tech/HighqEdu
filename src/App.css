@@ -109,7 +109,7 @@ body{
   font-size: 43px;
 }
 .headerset h1 {
-  border:2px solid green;
+  
   padding:40px;
   
   margin-top: 230px;
@@ -213,7 +213,7 @@ a:hover {
 }
 
 .clientImages:hover{
-  border:1px solid red;
+  
   border:1px solid whitesmoke;
 }
 
