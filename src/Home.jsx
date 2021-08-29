@@ -17,7 +17,7 @@ function Home() {
     <>  
     
       <Navbar />
-      <Aboutus />
+    
       <Courses />
       <UpComing />
       <Placements /> 

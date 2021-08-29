@@ -20,7 +20,20 @@ a {
 
 }
 /************************************ Navbar */
+.eduTech{
+  font-family: 'Rampart One', cursive;
+}
 
+
+.nav-link:hover{
+  color: aqua !important;
+}
+.logoNameDiv{
+  border:2px solid green;
+  background-color: #333;
+  width:100%;
+  height:50px;
+}
 .contact{
    
   width:100%;
@@ -32,7 +45,7 @@ a {
   padding:0;
   width:auto;
   height:60px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 .contactPara{
   
@@ -46,7 +59,10 @@ a {
   
 }
 .fa-laptop-code{
-  margin-left:15px;
+  
+  font-size:40px;
+  margin-left:0;
+  width:100%;
   z-index:100;
 }
 .navbar-brand{
@@ -179,12 +195,14 @@ a:hover {
 /***************************************************** About our placements */
 .cardImage {
   margin: 30px 30px;
-  width: 100%;
-  height: 350px;
+  width: 50%;
+  height: 200px;
   
 }
 
 .cardSet {
+  width:auto;
+  height:auto;
   z-index: -1;
 }
 .card {
@@ -198,6 +216,7 @@ a:hover {
   padding: 0;
   
 }
+
 /******************************************* About Clients */
 .clientImages{
 
@@ -207,6 +226,7 @@ a:hover {
 }
 
 .clientDiv{
+  margin-bottom: 10px;
   z-index: -1;
   
   box-shadow: 20px 3px 15px #ebdbdb
@@ -335,7 +355,23 @@ a:hover {
     font-size: 20px;
   }
   .headingPara{
-    font-size: 10px;
+    font-size: 15px;
+  }
+  .customFont{
+
+    font-size: 9px;
+    margin:0;
+    padding:0;
+  }
+}
+@media (max-width: 479px) {
+  .headerset h1 {
+    margin-top: 45px;
+    font-size: 20px;
+  }
+  .headingPara{
+    margin-top: 13px;
+    font-size: 12px;
   }
   .customFont{
 
@@ -343,19 +379,10 @@ a:hover {
     margin:0;
     padding:0;
   }
-}
-@media (max-width: 479px) {
-  .headerset h1 {
-    margin-top: 50px;
-    font-size: 20px;
-  }
-  .headingPara{
-    font-size: 8px;
-  }
-  .customFont{
-
-    font-size: 9px;
-    margin:0;
+  .coursesHeading{
+    border:1px solid red;
+    font-size: 10px;
+    margin-left:0;
     padding:0;
   }
 }

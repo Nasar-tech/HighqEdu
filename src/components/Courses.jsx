@@ -12,26 +12,19 @@ const Courses = () => {
         <div class="container">
           <br/>
           <br/>
-          <h2>Welcome To EduTech! How can we help you..</h2>
-          <h3>
-            <i>
-              Our team trained at your company premises. Learn content tailored
-              to match your organization specific needs. You set the date & time
-              and we deliver it.
-            </i>
-          </h3>
+          
+          
           <br />
           <br />
         
-          <hr class="w-30 mt-5 mx-auto" />
           
           <h1> Our Premium Courses </h1>
           <hr class="w-30 mx-auto" />
           <div class="row rowSetting bg-light">
-            <h4 align="left" class="m-4 p-4">
-              <i>
-                We have experienced faculty to train Freshers for improving
-                their technology skills to day to day needs.
+            <h4 align="left" class="m-2 p-2">
+              <i className="coursesHeading">
+                We have an experienced faculty to train aspirants for improving
+                their technical skills.
               </i>
             </h4>
             {/* Course 1 */}
@@ -162,7 +155,7 @@ const Courses = () => {
           <div></div>
         </div>
       </section>
-      <Footer/>
+      
     </>
   );
 };

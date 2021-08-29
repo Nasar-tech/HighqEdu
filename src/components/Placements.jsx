@@ -19,13 +19,15 @@ const Placements = () => {
                   alt="first"
                 />
                 <div class="card-body">
-                <h4><kbd>Alekhya Suri</kbd></h4>
+                <h4><i class="fas fa-user-tie"></i> <kbd> Alekhya Suri</kbd></h4>
                   <samp class="card-text">
-                    Open Text Software Solution 
+                  <i class="far fa-building"></i>  OPEN TEXT SOFTWARE SOLUTION 
                   </samp>
                 </div>
               </div>
             </div>
+            
+
             {/* <!-- Second Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
               <div class="card">
@@ -35,13 +37,15 @@ const Placements = () => {
                   alt="second"
                 />
                 <div class="card-body">
-                <h4><kbd>BVSR Kishore</kbd></h4>
+                <h4><i class="fas fa-user-tie"></i> <kbd>BVSR Kishore</kbd></h4>
                 <samp class="card-text">
-                Open Text Software Solution 
+                <i class="far fa-building"></i> OPEN TEXT SOFTWARE SOLUTION 
                   </samp>
                 </div>
               </div>
             </div>
+      
+
             {/* <!-- Third Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
               <div class="card">
@@ -51,15 +55,16 @@ const Placements = () => {
                   alt="second"
                 />
                 <div class="card-body">
-                <h4><kbd>CH Sindhuja</kbd></h4>
+                <h4> <i class="fas fa-user-tie"></i> <kbd>CH Sindhuja</kbd></h4>
                 <samp class="card-text">
-                Open Text Software Solution 
+                <i class="far fa-building"></i>  OPEN TEXT SOFTWARE SOLUTION 
                   </samp>
                 </div>
               </div>
             </div>
+            
             <div></div>
-            <br></br>
+            
 
             {/* <!-- Fourth Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
@@ -70,13 +75,15 @@ const Placements = () => {
                   alt="fourth"
                 />
                 <div class="card-body">
-                <h4><kbd>K Geethanjali</kbd></h4>
+                <h4> <i class="fas fa-user-tie"></i> <kbd>K Geethanjali</kbd></h4>
                 <samp class="card-text">
-                Open Text Software Solution 
+                <i class="far fa-building"></i> OPEN TEXT SOFTWARE SOLUTION 
                   </samp>
                 </div>
               </div>
             </div>
+      
+
             {/* <!-- Fifth Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
               <div class="card">
@@ -86,13 +93,15 @@ const Placements = () => {
                   alt="fourth"
                 />
                 <div class="card-body">
-                <h4><kbd>K Lakshmi Priya</kbd></h4>
+                <h4> <i class="fas fa-user-tie"></i> <kbd>K Lakshmi Priya</kbd></h4>
                 <samp class="card-text">
-                Open Text Software Solution 
+                <i class="far fa-building"></i> OPEN TEXT SOFTWARE SOLUTION 
                   </samp>
                 </div>
               </div>
             </div>
+      
+
             {/* <!-- sixth Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
               <div class="card">
@@ -102,13 +111,14 @@ const Placements = () => {
                   alt="fourth"
                 />
                 <div class="card-body">
-                <h4><kbd>KLN Pratyusha</kbd></h4>
+                <h4> <i class="fas fa-user-tie"></i> <kbd>KLN Pratyusha</kbd></h4>
                 <samp class="card-text">
-                Open Text Software Solution 
+                <i class="far fa-building"></i> OPEN TEXT SOFTWARE SOLUTION 
                   </samp>
                 </div>
               </div>
             </div>
+            <div></div>
             {/* <!-- seven Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
               <div class="card">
@@ -118,13 +128,15 @@ const Placements = () => {
                   alt="fourth"
                 />
                 <div class="card-body">
-                <h4><kbd>M Sai Divya</kbd></h4>
+                <h4> <i class="fas fa-user-tie"></i> <kbd>M Sai Divya</kbd></h4>
                 <samp class="card-text">
-                Open Text Software Solution 
+                <i class="far fa-building"></i> OPEN TEXT SOFTWARE SOLUTION 
                   </samp>
                 </div>
               </div>
             </div>
+      
+
             {/* <!-- Eight Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
               <div class="card">
@@ -134,13 +146,16 @@ const Placements = () => {
                   alt="fourth"
                 />
                 <div class="card-body">
-                <h4><kbd>Nikhila Reddy</kbd></h4>
+                <h4> <i class="fas fa-user-tie"></i> <kbd>Nikhila Reddy</kbd></h4>
                 <samp class="card-text">
-                Open Text Software Solution 
+                
+                <i class="far fa-building"></i> OPEN TEXT SOFTWARE SOLUTION 
                   </samp>
                 </div>
               </div>
             </div>
+      
+
             {/* <!-- Nine Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
               <div class="card">
@@ -150,13 +165,15 @@ const Placements = () => {
                   alt="fourth"
                 />
                 <div class="card-body">
-                <h4><kbd>S Manikanta</kbd></h4>
+                <h4> <i class="fas fa-user-tie"></i> <kbd>S Manikanta</kbd></h4>
                 <samp class="card-text">
-                Open Text Software Solution 
+                <i class="far fa-building"></i> OPEN TEXT SOFTWARE SOLUTION 
                   </samp>
                 </div>
               </div>
             </div>
+            <div></div>
+            
             {/* <!-- Ten Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
               <div class="card">
@@ -166,13 +183,15 @@ const Placements = () => {
                   alt="fourth"
                 />
                 <div class="card-body">
-                <h4><kbd>U Jagadeeswari</kbd></h4>
+                <h4> <i class="fas fa-user-tie"></i> <kbd>U Jagadeeswari</kbd></h4>
                 <samp class="card-text">
-                    Wall Street Technology
+                <i class="far fa-building"></i> EURASIAN SOFTWARE SOLUTION  PVT. LTD.
                   </samp>
                 </div>
               </div>
             </div>
+      
+
             {/* <!-- Eleven Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
               <div class="card">
@@ -182,9 +201,9 @@ const Placements = () => {
                   alt="fourth"
                 />
                 <div class="card-body">
-                <h4><kbd>V VenkataRaju</kbd></h4>
+                <h4> <i class="fas fa-user-tie"></i> <kbd>V VenkataRaju</kbd></h4>
                 <samp class="card-text">
-                Open Text Software Solution 
+                <i class="far fa-building"></i> WALL STREET TECH LLC
                   </samp>
                 </div>
               </div>
@@ -195,14 +214,14 @@ const Placements = () => {
           <h3>
             <Link to="/Contactus">
               <hr className="w-25 mx-auto" />
-              Find More and Join with us{" "}
+              Join with us &nbsp;&nbsp;
               <i className="far fa-arrow-circle-right m-auto"></i>
               <hr className="w-25 mx-auto" />
             </Link>
           </h3>
         </div>
       </section>
-      <div></div>
+      
 
       <div>
         <hr class="w-75 mx-auto" />
