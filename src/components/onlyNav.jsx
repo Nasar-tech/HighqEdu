@@ -9,7 +9,7 @@ const OnlyNav = () => {
    
     <div>
 
-      <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <Link className="navbar-brand text-white" to="/">
          
       <p className="mt-3"><i className="fas fa-laptop-code"> HqlEduTech </i> </p>

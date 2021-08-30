@@ -9,7 +9,9 @@ const Career = () => {
       <OnlyNav></OnlyNav>
       <h2 class="careermessage">Career Page </h2>
       <br/>
-      
+      <br/>
+      <br/>
+      <br/>
       
       <h3>Developing underProcess..!</h3>
       <h2>Future Placements are displayed here</h2>

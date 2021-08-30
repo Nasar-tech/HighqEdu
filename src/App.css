@@ -57,7 +57,7 @@ a {
   font-size: small;
 }
 .contactPara2{
-  color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
   margin-top:-20px;
   padding:0;
   font-size: small;
@@ -76,20 +76,25 @@ a {
 }
 .navbar-brand{
   z-index: 100;
+  color: black !important;
 }
 body{
   background-color: rgb(255, 255, 255);
 }
-
+body{
+  background-color: #f2f5fc;
+}
 .navbar {
   margin:0;
   padding:0;
   overflow: hidden;
-  background-color:transparent;
+  background-color:#f2f5fc;
+  border-radius: 15%;
+  border:none;
   position:fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  height:6rem;
+
 
 }
 .navbar-expand-lg{
@@ -97,6 +102,7 @@ body{
 }
 .nav-link{
   font-size: large;
+  color:#333 !important;
 }
 .nav-link:focus{
   font-size: large;

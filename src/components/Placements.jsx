@@ -6,6 +6,7 @@ const Placements = () => {
     <>
       <section class="placements">
         <div class="container text-center">
+          <br/>
           <h2>Our Recent Placements</h2>
           <h3>Excellence in placements and training</h3>
           <br/>
