@@ -12,7 +12,7 @@ const OnlyNav = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <Link className="navbar-brand text-white" to="/">
          
-      <p className="mt-2"><i className="fas fa-laptop-code"> HqlEduTech </i> </p>
+      <p className="mt-3"><i className="fas fa-laptop-code"> HqlEduTech </i> </p>
           <div className="contactDetails"> 
             
             <p className="contactPara1">&nbsp;<i class="fas fa-mobile-alt"></i>&nbsp;+91 80991 14345</p>

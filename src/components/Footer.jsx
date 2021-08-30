@@ -4,37 +4,18 @@ const Footer = () => {
   return (
     <div>
       <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 mb-0 p-0 border-top">
-          <p class="col-md-4 mb-0 text-success">©HighQ-Labs 2021 Company, Inc</p>
+        <footer>
+          <hr className="w-100" />
+          <div className="row d-flex justify-content-center">
+            <div className="col-5 col-md-5 ml-5">
+            <p class="text-success">©HighQ-Labs 2021 Company, Inc</p>
 
-          <a
-            href="/"
-            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
-          ></a>
-
-          <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item">
-              <a href="#" disabled class="nav-link px-2">
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="pagenotfound" class="nav-link px-2">
-                Features
-              </a>
-            </li>
-           
-            <li class="nav-item">
-              <a href="pagenotfound" class="nav-link px-2">
-                FAQs
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="pagenotfound" class="nav-link px-2">
-                About
-              </a>
-            </li>
-          </ul>
+            </div>
+            <div className="col-5 col-md-5 ml-5">
+              <p class="text-success"><i class="fas fa-map-marked-alt"></i> D.No.46-17-20, Kilari Enclave, above HDFC Bank, Danavai Peta</p>
+              <p class="text-success mt-0"><i class="fas fa-mobile-alt"></i>&nbsp; Phone : +91 80991 14345</p>
+            </div>
+          </div>
         </footer>
       </div>
     </div>
