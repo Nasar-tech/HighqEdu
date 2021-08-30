@@ -52,16 +52,25 @@ a {
   padding:0;
   
 }
+.contactPara1{
+  
+  font-size: small;
+}
 .contactPara2{
   color:rgb(255, 255, 255);
   margin-top:-20px;
   padding:0;
-  
+  font-size: small;
 }
+
+
+
+
 .fa-laptop-code{
   
-  font-size:40px;
+  font-size:3rem;
   margin-left:0;
+  margin-top: 0.5rem;
   width:100%;
   z-index:100;
 }
@@ -80,6 +89,7 @@ body{
   position:fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  height:6rem;
 
 }
 .navbar-expand-lg{
@@ -195,8 +205,8 @@ a:hover {
 /***************************************************** About our placements */
 .cardImage {
   margin: 30px 30px;
-  width: 50%;
-  height: 200px;
+  width: 30%;
+  height: 100px;
   
 }
 
@@ -205,7 +215,7 @@ a:hover {
   height:auto;
   z-index: -1;
 }
-.card {
+.cardStudents {
   width: 20rem;
 }
 .placements {
@@ -284,14 +294,15 @@ a:hover {
   display: inline-block;
   margin: 20px;
 }
-.marquee {
-  height: 100%;
-  width: 100%;
-  margin: 20px;
+
+.card-title{
+  width:30%;
+  display:inline;
 }
-
-
-
+.courseCard:hover{
+  border:1px solid rgb(0, 0, 0);
+  box-shadow: 0 0.5rem 0.5rem rgb(73, 56, 56);
+}
 
 
 

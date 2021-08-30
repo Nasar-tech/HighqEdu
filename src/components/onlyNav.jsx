@@ -12,12 +12,12 @@ const OnlyNav = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <Link className="navbar-brand text-white" to="/">
          
-      <p className="mt-2"><i className="fas fa-laptop-code">Edu-Tech </i> </p>
+      <p className="mt-2"><i className="fas fa-laptop-code"> HqlEduTech </i> </p>
           <div className="contactDetails"> 
-            <p className="contactPara1"><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;&nbsp;+91 80991 14345</p>
-            <p className="contactPara2"><i class="fas fa-at"></i>&nbsp;&nbsp;Email : highqlabs@gmail.com</p>
-            <br/>
             
+            <p className="contactPara1">&nbsp;<i class="fas fa-mobile-alt"></i>&nbsp;+91 80991 14345</p>
+            <p className="contactPara2"><i class="fas fa-at"></i>&nbsp;Email:highqlabs@gmail.com</p>
+            <br/>            
           </div>  
         </Link>
         <button
@@ -35,28 +35,28 @@ const OnlyNav = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className=" nav navbar-nav ml-auto">
             <li className="nav-item active mr-2">
-              <Link className="nav-link text-white" style={{fontSize:"23px"}} to="/">
+              <Link className="nav-link text-white" style={{fontSize:"18px"}} to="/">
                 <i className="fas fa-home"></i> Home
               </Link>
               
             </li>
             <li className="nav-item  mr-2">
-              <Link className="nav-link text-white" style={{fontSize:"23px"}} to="/Courses">
+              <Link className="nav-link text-white" style={{fontSize:"18px"}} to="/Courses">
                 <i className="fas fa-chalkboard-teacher"></i> Courses
               </Link>
             </li>
             <li className="nav-item mr-2">
-              <Link className="nav-link text-white" style={{fontSize:"23px"}} to="/Career">
+              <Link className="nav-link text-white" style={{fontSize:"18px"}} to="/Career">
                 <i className="fas fa-graduation-cap"></i> Career
               </Link>
             </li>
             <li className="nav-item mr-2">
-              <Link className="nav-link text-white" style={{fontSize:"23px"}} to="/OurPlacements">
-                <i className="fas fa-terminal"></i> OurPlacements
+              <Link className="nav-link text-white" style={{fontSize:"17px"}} to="/OurPlacements">
+              <i class="fas fa-user-tie"></i> OurRecentPlacements
               </Link>
             </li>
             <li className="nav-item mr-2">
-              <Link className="nav-link text-white" style={{fontSize:"23px"}} to="/Contactus">
+              <Link className="nav-link text-white" style={{fontSize:"18px"}} to="/Contactus">
                 <i className="fas fa-search-dollar"></i> Contactus
               </Link>
             </li>

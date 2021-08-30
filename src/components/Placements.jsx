@@ -6,13 +6,13 @@ const Placements = () => {
     <>
       <section class="placements">
         <div class="container text-center">
-          <h2>Our Placements</h2>
+          <h2>Our Recent Placements</h2>
           <h3>Excellence in placements and training</h3>
           <br/>
           <div class="row placementsRow g-5 gy-3">
             {/* <!-- First card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
-              <div class="card">
+              <div class="cardStudents">
                 <img
                   src="./images/placedStudents/AlekhyaSuri.jpg"
                   class="card-img-top mx-auto cardImage img-fluid"
@@ -30,7 +30,7 @@ const Placements = () => {
 
             {/* <!-- Second Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
-              <div class="card">
+              <div class="cardStudents">
                 <img
                   src="./images/placedStudents/bvsrKishore.jpg"
                   class="card-img-top mx-auto cardImage img-fluid"
@@ -48,7 +48,7 @@ const Placements = () => {
 
             {/* <!-- Third Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
-              <div class="card">
+              <div class="cardStudents">
                 <img
                   src="./images/placedStudents/chSindhuja.jpg"
                   class="card-img-top mx-auto cardImage img-fluid"
@@ -68,7 +68,7 @@ const Placements = () => {
 
             {/* <!-- Fourth Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
-              <div class="card">
+              <div class="cardStudents">
                 <img
                   src="./images/placedStudents/Kgeethanjali.jpg"
                   class="card-img-top mx-auto cardImage img-fluid"
@@ -86,7 +86,7 @@ const Placements = () => {
 
             {/* <!-- Fifth Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
-              <div class="card">
+              <div class="cardStudents">
                 <img
                   src="./images/placedStudents/kLakshmiPriya.jpeg"
                   class="card-img-top mx-auto cardImage img-fluid"
@@ -104,7 +104,7 @@ const Placements = () => {
 
             {/* <!-- sixth Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
-              <div class="card">
+              <div class="cardStudents">
                 <img
                   src="./images/placedStudents/KLNpratyusha.jpg"
                   class="card-img-top mx-auto cardImage img-fluid"
@@ -121,7 +121,7 @@ const Placements = () => {
             <div></div>
             {/* <!-- seven Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
-              <div class="card">
+              <div class="cardStudents">
                 <img
                   src="./images/placedStudents/mSaiDivya.jpg"
                   class="card-img-top mx-auto cardImage img-fluid"
@@ -139,7 +139,7 @@ const Placements = () => {
 
             {/* <!-- Eight Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
-              <div class="card">
+              <div class="cardStudents">
                 <img
                   src="./images/placedStudents/NikhilaReddy.jpg"
                   class="card-img-top mx-auto cardImage img-fluid"
@@ -158,7 +158,7 @@ const Placements = () => {
 
             {/* <!-- Nine Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
-              <div class="card">
+              <div class="cardStudents">
                 <img
                   src="./images/placedStudents/sManikanta.jpg"
                   class="card-img-top mx-auto cardImage img-fluid"
@@ -176,7 +176,7 @@ const Placements = () => {
             
             {/* <!-- Ten Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
-              <div class="card">
+              <div class="cardStudents">
                 <img
                   src="./images/placedStudents/uJagadeeswari.jpg"
                   class="card-img-top mx-auto cardImage img-fluid"
@@ -194,7 +194,7 @@ const Placements = () => {
 
             {/* <!-- Eleven Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
-              <div class="card">
+              <div class="cardStudents">
                 <img
                   src="./images/placedStudents/vVenkataRaju.jpg"
                   class="card-img-top mx-auto cardImage img-fluid"
